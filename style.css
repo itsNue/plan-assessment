@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Inter";
+}
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f9f9f9;
+}
+.container {
+	width: 80%;
+}
+.rectangle {
+	display: flex;
+	justify-content: space-around;
+	border-radius: 10px;
+	border: 1px solid #1e1e1e;
+}
+.header {
+	padding: 1.2em;
+	background: #e0e0e0;
+	margin-bottom: 1.5em;
+}
+span {
+	font-size: larger;
+}
+.standard {
+	padding: 1.3em;
+	justify-content: space-around;
+	margin-bottom: 1.5em;
+}
+.active-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 42px;
+	background: #d9d9d9;
+	padding: 0.2em 0.4em;
+	gap: 0.5em;
+}
+.green-dot {
+	width: 0.65625rem;
+	height: 0.65625rem;
+	flex-shrink: 0;
+	border-radius: 10.5px;
+	background: #44d753;
+}
+.popular {
+	display: flex;
+	justify-content: space-around;
+	padding: 1.3em;
+	background: #ededed;
+	border-bottom: #1e1e1e 1px solid;
+}
+.plan-container {
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	border: 1px solid #1e1e1e;
+	overflow: hidden;
+	background: #ededed;
+}
+.plan-details {
+	display: flex;
+}
+.plan-settings {
+	width: 70%;
+	display: flex;
+	padding: 1em;
+	gap: 2em;
+	height: 100%;
+}
+.content {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 2em;
+}
+.plan-checkout {
+	background: #d9d9d9;
+	padding: 1.5em;
+	width: 30%;
+	border-left: #1e1e1e solid 1px;
+	display: flex;
+	flex-direction: column;
+	gap: 1.2em;
+}
+.money {
+	font-size: 2em;
+	font-weight: 600;
+}
+input {
+	margin-top: 0.5em;
+	padding: 0.8em 1em;
+	border-radius: 0.4em;
+	border: #1e1e1e 1px solid;
+}
+button {
+	padding: 0.8em 1em;
+	width: 80%;
+}
+.sm-text {
+	font-size: smaller;
+}
+.subscription {
+	display: flex;
+	justify-content: space-between;
+}
+.btn {
+	padding: 0.5em;
+	border-radius: 4px;
+	border: 1px solid #000;
+	background: #f9f9f9;
+}
+.important-text {
+	font-weight: 600;
+	font-size: 1.25em;
+}
+.flex-oneline {
+	display: flex;
+	justify-content: space-between;
+}

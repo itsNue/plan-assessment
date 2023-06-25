@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Accordion with Multiple Columns</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script
+			src="https://kit.fontawesome.com/865e2a4d49.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Header -->
+			<section class="rectangle header">
+				<div class="header-name">
+					<p>Package Name</p>
+				</div>
+				<span>|</span>
+				<div class="header-name">
+					<p>Last Payment</p>
+				</div>
+				<span>|</span>
+				<div class="header-name">
+					<p>Next Payment</p>
+				</div>
+				<span>|</span>
+				<div class="header-name">
+					<p>Amount</p>
+				</div>
+				<span>|</span>
+				<div class="header-name">
+					<p>Status</p>
+				</div>
+				<span>|</span>
+				<div class="header-name">
+					<p>Expire In</p>
+				</div>
+			</section>
+			<!-- Standard Plan -->
+			<section class="rectangle standard">
+				<div class="header-name">
+					<p>ABC - Standard</p>
+				</div>
+				<div class="header-name">
+					<p>Aug 21, 2021</p>
+				</div>
+				<div class="header-name">
+					<p>Aug 21, 2022 /Yearly</p>
+				</div>
+				<div class="header-name">
+					<p>3500$</p>
+				</div>
+				<div class="header-name">
+					<div class="active-btn">
+						<div class="green-dot"></div>
+						<p>Active</p>
+					</div>
+				</div>
+				<div class="header-name chevron">
+					<p>365 days</p>
+				</div>
+			</section>
+			<!-- Popular Plan -->
+			<div class="plan-container">
+				<section class="popular">
+					<div class="header-name">
+						<p>ADDIC - Most Popular</p>
+					</div>
+					<div class="header-name">
+						<p>-</p>
+					</div>
+					<div class="header-name">
+						<p>Oct 20, 2021 /Yearly</p>
+					</div>
+					<div class="header-name">
+						<p>Free</p>
+					</div>
+					<div class="header-name">
+						<div class="active-btn">
+							<div class="green-dot"></div>
+							<p>Active</p>
+						</div>
+					</div>
+					<div class="header-name chevron">
+						<p>28 days</p>
+					</div>
+				</section>
+				<section class="plan-details">
+					<div class="plan-settings">
+						<div class="content">
+							<div>
+								<p>Popular business Plan/3 mnths</p>
+								<p>(Minimum subscription: <strong>1200 INR</strong>)</p>
+							</div>
+							<div class="sm-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aperiam dignissimos sit adipisci laborum rerum id repellat non blanditiis nesciunt repudiandae, deleniti at, ducimus distinctio beatae rem dolorum eos magni!
+							</div>
+							<div class="subscription">
+								<div class="btn">Unsubscribe</div>
+								<div class="btn">Change Package</div>
+							</div>
+						</div>
+						<div class="content">
+							<div>
+								<p>Membership Plan</p>
+								<p class="important-text">Turbo Business Plan/ 3 mths</p>
+							</div>
+							<div class="flex-oneline">
+								<div>
+									<p>Status</p>
+									<p class="important-text">Active</p>
+								</div>
+								<div>
+									<p>Last invoice date</p>
+									<p class="important-text">Oct 20, 2021</p>
+								</div>
+							</div>
+							<div class="flex-oneline">
+								<div>
+									<p>Business Cycle</p>
+									<p class="important-text">Yearly</p>
+								</div>
+								<div>
+									<p>Next payment date</p>
+									<p class="important-text">Oct 20, 2023</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="plan-checkout">
+						<div class="due">
+							<p>Amount Due:</p>
+							<p class="money">$300.00</p>
+						</div>
+						<div class="discount">
+							<p>10% off - Coupon</p>
+							<div class="coupon">
+								<input type="text" placeholder="Enter Code" />
+							</div>
+						</div>
+						<div class="cost">
+							<p>Total to Pay:</p>
+							<p class="money">$250.00</p>
+						</div>
+						<div class="cart-btn">
+							<button>
+								<i class="fa-solid fa-cart-shopping"></i>
+								Add to Cart
+							</button>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
